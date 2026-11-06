@@ -11,3 +11,6 @@ dependencies = [
 
 [tool.pytest.ini_options]
 testpaths=["tests"]
+markers = [
+    "integration: tests that load and run a real model",
+]
